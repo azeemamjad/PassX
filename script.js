@@ -50,7 +50,7 @@ const newPassword1 = generatePassword(t, t1, t2, length);
 const newPassword2 = generatePassword(t, t1, t2, length);
 const newPassword3 = generatePassword(t, t1, t2, length);
 const newPassword4 = generatePassword(t, t1, t2, length);
-if ((newPassword == 'No character types selected for the password.') || (length <= 4))
+if ((newPassword == 'No character types selected for the password.') || (length <= 3))
 {
     pas.innerHTML = '<h2>No character types selected for the password. or password length not given please give the correct length(4 or greater) and "turn on" atleast one button</h2>';
 }
