@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator - Feel Secure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img class="image" src="img/logo.svg" alt="logo"><h1>PassX</h1></div>
+                <ul>
+                    <li><a href="\index.html">Home</a></li>
+                    <li><a href="\About.html">About Us</a></li>
+                    <li><a href="####">Contact Us</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+            <div class="sidebar">
+                <ul>
+                    <li>Numeric</li><div class="line"></div><div class="toggle"><div class="toggle-button" onclick="Animatedtoggle()"></div></div>
+                    <li>Charchters</li><div class="line"></div><div class="toggle1"><div class="toggle-button" onclick="Animatedtoggle1()"></div></div>
+                    <li>Specail Charchters</li><div class="line"></div><div class="toggle2"><div class="toggle-button" onclick="Animatedtoggle2()"></div></div>
+                    <li>Password Length</li><div class="line"></div><input type="number" class="len">
+                </ul>
+            </div>
+            <div class="mainarea">
+                <button onclick="generate()">Generate Password</button>
+                <div class="passwords">
+
+                </div>
+            </div>
+    </main>
+    <footer>
+        Copyright | PassX.com | All Rights Reserved
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
